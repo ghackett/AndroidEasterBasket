@@ -2,7 +2,7 @@ package com.android.easter.backet;
 
 import android.view.View;
 
-public class OnClickEasterEggEvent implements EasterEggEvent {
+public class OnClickEasterEggEvent extends EasterEggEvent {
 	
 	private String mViewToString = null;
 	private int mId = View.NO_ID;

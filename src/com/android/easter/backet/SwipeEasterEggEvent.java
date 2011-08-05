@@ -1,6 +1,6 @@
 package com.android.easter.backet;
 
-public class SwipeEasterEggEvent implements EasterEggEvent {
+public class SwipeEasterEggEvent extends EasterEggEvent {
 	
 	public static final int EVENT_SWIPE_UP = 1;
 	public static final int EVENT_SWIPE_DOWN = 2;
